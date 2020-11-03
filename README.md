@@ -18,8 +18,8 @@
 
 ##
 
-```html
-<pre><code class="language-python">def get_courses_list(courses_url):
+~~~~{.python}
+
 	def get_courses_list(courses_url):
 		html = fetch_html(courses_url)
 		if html:
@@ -28,8 +28,7 @@
 		else:
 			print("can't load list of courses")
 			exit()		
-</code></pre>
-```
+~~~~
 
 ##
 		
