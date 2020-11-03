@@ -18,7 +18,8 @@
 
 ##
 
-~~~~{.python}
+
+```python
 def get_courses_list(courses_url):
 	html = fetch_html(courses_url)
 	if html:
@@ -27,7 +28,8 @@ def get_courses_list(courses_url):
 	else:
 		print("can't load list of courses")
 		exit()		
-~~~~
+```
+
 
 ##
 		
